@@ -1,0 +1,51 @@
+{
+    "users": [
+      {
+        "email": "test1@gmail.com",
+        "password": "123456",
+        "id": 1
+      },
+      {
+        "email": "test2@gmail.com",
+        "password": "123456",
+        "id": 2
+      },
+      {
+        "email": "test3@gmail.com",
+        "password": "123456",
+        "id": 3
+      }
+    ],
+    "Houses": [
+      {
+        "id": 1,
+        "tel": "09120000001",
+        "address": "Azadi",
+        "description":"light house",
+        "coordinates": {
+            "lat": 35.699,
+            "lng": 51.338
+        }
+      },
+      {
+        "id": 2,
+        "tel": "09120000002",
+        "address": "Milad",
+        "description": "dignified",
+        "coordinates": {
+            "lat": 35.746,
+            "lng": 51.381
+        }
+      },
+      {
+        "id": 3,
+        "tel": "09120000003",
+        "address": "Jordan",
+        "description": "Royal",
+        "coordinates": {
+          "lat": 35.772,
+          "lng": 51.419
+        }
+      }
+    ]
+  }
