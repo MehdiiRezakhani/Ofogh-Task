@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: iranSans;
+  src: url("./assets/font/IRANSansWeb_Medium.ttf");
+}
+
+@layer base {
+  html {
+    font-family: iranSans;
+    box-sizing: border-box !important;
+  }
+}
+
+@layer components {
+  .button-greadiant {
+    @apply active:scale-105 transition text-white cursor-pointer bg-gradient-to-br from-teal-500 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
+  }
+  .label {
+    @apply block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300;
+  }
+  .input {
+    @apply block focus:outline-blue-400 border text-zinc-700 border-gray-300 w-full px-3 py-2 rounded placeholder:text-sm;
+  }
+}
+
+.leaflet-container {
+  z-index: 0;
+  width: 100%;
+  height: 300px;
+}
+
+
+.alertbox {
+  transition: 0.4s all ease-out;
+  transform: translateX(-60vw);
+  opacity: 1;
+}
+.alertbox.error {
+  @apply bg-red-100 border-l-4 border-red-500 text-red-800;
+}
+.alertbox.success {
+  @apply bg-green-100 border-l-4 border-green-400 text-green-800;
+}
+.alertbox.active {
+  opacity: 1;
+  transform: translateX(0);
+}
