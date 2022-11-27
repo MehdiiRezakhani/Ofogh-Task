@@ -1,0 +1,57 @@
+@import 'variables'; 
+.House {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 40px 30px;
+    margin: 30px 10px;
+    background-color: $bgColor2;
+    box-shadow: 0px 4px 20px rgba(77, 166, 186, 0.38);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    .firstBox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px 5px;
+    }
+    img {
+        width: 100px;
+        margin-right: 10px;
+    }
+    .textBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 15px 5px;
+    }
+    .mapBox {
+        border: 1px solid red;
+    }
+    .buttonBox {
+        display: flex;
+        justify-content: space-between;
+        button {
+            margin: 10px;
+            padding: 8px 12px;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
+            &:first-of-type {
+                background-color: green;
+            }
+            &:last-of-type {
+                background-color: red;
+            }
+        }
+    }
+
+}

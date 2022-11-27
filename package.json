@@ -19,9 +19,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "test": "react-script test",
     "build": "react-scripts build",
-    "test": "json-server --watch db.json -m ./node_modules/json-server-auth --p 4000",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "json-server --watch db.json -m ./node_modules/json-server-auth --p 4000"
   },
   "eslintConfig": {
     "extends": [

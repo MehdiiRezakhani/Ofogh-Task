@@ -1,0 +1,55 @@
+.House {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 40px 30px;
+  margin: 30px 10px;
+  background-color: #fff;
+  box-shadow: 0px 4px 20px rgba(77, 166, 186, 0.38);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.House .firstBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 5px;
+}
+.House img {
+  width: 100px;
+  margin-right: 10px;
+}
+.House .textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 15px 5px;
+}
+.House .mapBox {
+  border: 1px solid red;
+}
+.House .buttonBox {
+  display: flex;
+  justify-content: space-between;
+}
+.House .buttonBox button {
+  margin: 10px;
+  padding: 8px 12px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.House .buttonBox button:first-of-type {
+  background-color: green;
+}
+.House .buttonBox button:last-of-type {
+  background-color: red;
+}/*# sourceMappingURL=House.module.css.map */

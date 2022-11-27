@@ -1,0 +1,82 @@
+.Create {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 50px;
+  width: 70%;
+}
+.Create > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 20px 40px;
+  background: #fff;
+  box-shadow: 0px 4px 20px rgba(77, 166, 186, 0.38);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.Create > div h3 {
+  color: #000;
+  font-size: 2rem;
+  margin: 20px 5px;
+}
+.Create > div form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Create > div form label {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 10px 0px;
+  color: #000;
+}
+.Create > div form input {
+  padding: 8px 12px;
+  background: #E2E6EE;
+  border: none;
+  box-shadow: 0px 4px 18px rgba(158, 168, 189, 0.31);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.Create > div form input:focus {
+  background-color: #fff;
+  outline-color: #E2E6EE;
+}
+.Create > div form textarea {
+  padding: 8px 12px;
+  background: #E2E6EE;
+  margin-bottom: 20px;
+  border: none;
+  box-shadow: 0px 4px 18px rgba(158, 168, 189, 0.31);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.Create > div form textarea:focus {
+  background-color: #fff;
+  outline-color: #E2E6EE;
+}
+.Create > div form input[type=submit] {
+  text-align: center;
+  padding: 10px 20px;
+  margin: 15px 0px;
+  background: #288FB4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=Create.module.css.map */

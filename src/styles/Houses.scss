@@ -1,0 +1,9 @@
+@import 'variables'; 
+.Houses {
+    display: flex;
+    flex-direction: column;
+    & > ul {
+        display: flex;
+        flex-direction: column;
+    }
+}

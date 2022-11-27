@@ -1,0 +1,29 @@
+.HousesItem a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 40px;
+  margin: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 20px rgba(77, 166, 186, 0.38);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.HousesItem a img {
+  width: 100px;
+  height: auto;
+}
+.HousesItem a div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-left: 10px;
+  font-size: 2rem;
+}
+.HousesItem a div p {
+  color: #288FB4;
+}/*# sourceMappingURL=HousesItem.css.map */

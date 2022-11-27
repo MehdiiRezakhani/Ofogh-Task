@@ -1,0 +1,8 @@
+.Houses {
+  display: flex;
+  flex-direction: column;
+}
+.Houses > ul {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=Houses.css.map */
