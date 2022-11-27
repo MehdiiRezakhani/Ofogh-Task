@@ -14,7 +14,7 @@ const Register = () => {
   };
 
   return (
-    <div className="flex h-screen">
+    <div>
       <UserForm name={"Register"} onSubmit={formHandler} />
     </div>
   );
