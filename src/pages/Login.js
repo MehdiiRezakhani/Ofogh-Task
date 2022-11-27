@@ -14,7 +14,7 @@ const Login = () => {
   };
 
   return (
-    <div className="flex h-screen">
+    <div>
       <UserForm name={"Login"} onSubmit={formHandler} />
     </div>
   );
